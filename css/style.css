@@ -11,7 +11,7 @@ header {
 
 header,
 .hero-section,
-.light-bg-wrapper,
+.information-wrapper,
 .testimonial-wrapper {
   width: 960px;
   margin: 0 auto;
@@ -71,7 +71,7 @@ header,
   transition: 0.2s;
 }
 
-.light-bg,
+.information,
 .cta {
   background-color: #f1faee;
   margin-bottom: 0;
@@ -81,7 +81,7 @@ header,
   background-color: #e5e7eb;
 }
 
-.light-bg,
+.information,
 .testimonial-wrapper {
   color: #1f2937;
 }
@@ -103,10 +103,38 @@ header,
   border: 3px solid #f1faee;
 }
 
+.information-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-wrapper h4 {
+  font-size: 36px;
+}
+
+.information-flex-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.information-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .information-img {
   width: 80px;
   border: 3px solid #3882f6;
   border-radius: 12px;
   padding: 12px;
   fill: #3882f6;
+}
+
+.testimonial-paragraph {
+  font-weight: light;
+  font-style: italic;
+  font-size: 36px;
 }
