@@ -1,3 +1,8 @@
+.logo {
+  font-family: "Michroma", sans-serif;
+  font-style: italic;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -11,11 +16,59 @@ header,
   width: 960px;
   margin: 0 auto;
 }
+
 .mp-nav {
   display: flex;
   gap: 12px;
   font-size: 14px;
   color: #f9f1f8;
+}
+
+.mp-nav a:link,
+.mp-nav a:visited {
+  text-decoration: none;
+  color: #f9f1f8;
+}
+
+.mp-nav a:hover {
+  color: #9cc1fb;
+  transition: 0.2s;
+}
+
+.mp-nav a:active {
+  color: #3882f6;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+}
+
+.hero-cta {
+  width: 148px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-cta:hover {
+  background-color: #609bf8;
+  transition: 0.2s;
 }
 
 .light-bg,
