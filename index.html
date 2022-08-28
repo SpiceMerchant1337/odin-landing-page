@@ -3,17 +3,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Homepage | Woodfellas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Logo</h1>
-      <h2>HOME</h2>
-      <h2>ABOUT</h2>
-      <h2>CONTACT</h2>
+      <div class="mp-logo">
+        <h1>Logo</h1>
+      </div>
+      <div class="mp-nav">
+        <h2>HOME</h2>
+        <h2>ABOUT</h2>
+        <h2>CONTACT</h2>
+      </div>
     </header>
-    <section>
-      <h3>Elevate your space.</h3>
+    <section class="hero-section">
+      <h3>Grow the family.</h3>
       <p>
         Began with a woodworker's tale, we at Woodfellas aim to leave the
         comfort of a lifetime for our customers with not only our experience but
@@ -23,28 +35,32 @@
       </p>
       <button>Call us</button>
       <div class="hero-img">
-        <img src="img/pexels-daria-shevtsova-842950.jpg" alt="" />
+        <img src="img/laptop.jpg" alt="" />
       </div>
     </section>
-    <section>
-      <h4>Some random information.</h4>
-      <div>
-        <img src="" alt="" class="testimonial-img" />
-        <p>subtext under image</p>
+    <section class="light-bg">
+      <div class="light-bg-wrapper">
+        <h4>Some random information.</h4>
+        <div>
+          <img src="icons/idea.svg" alt="" class="information-img" />
+          <p>subtext under image</p>
+        </div>
+        <div>
+          <img src="icons/blueprint.svg" alt="" class="information-img" />
+          <p>subtext under image</p>
+        </div>
+        <div>
+          <img src="icons/growth.svg" alt="" class="information-img" />
+          <p>subtext under image</p>
+        </div>
+        <div>
+          <img src="icons/sustainable.svg" alt="" class="information-img" />
+          <p>subtext under image</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="" class="testimonial-img" />
-        <p>subtext under image</p>
-      </div>
-      <div>
-        <img src="" alt="" class="testimonial-img" />
-        <p>subtext under image</p>
-      </div>
-      <div>
-        <img src="" alt="" class="testimonial-img" />
-        <p>subtext under image</p>
-      </div>
-      <div>
+    </section>
+    <section class="testimonial">
+      <div class="testimonial-wrapper">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quas
           ex magni similique exercitationem nemo quae dolores suscipit deserunt
@@ -53,7 +69,9 @@
         </p>
         <p>author name</p>
       </div>
-      <div>
+    </section>
+    <section class="cta">
+      <div class="cta-wrapper">
         <h5>Call to action! It's time!</h5>
         <p>Sign up for our product by clicking that button right over there!</p>
         <button>Call us</button>
