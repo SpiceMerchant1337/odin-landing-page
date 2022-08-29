@@ -3,4 +3,4 @@
 Landing page assignment for The Odin Project, any personal notes and credits will be found here.
 
 Credits:
-Photo by Victor Freitas: https://www.pexels.com/photo/person-holding-pendant-light-973506/
+Photo by Proxyclick Visitor Management System: ttps://unsplash.com/@proxyclick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
